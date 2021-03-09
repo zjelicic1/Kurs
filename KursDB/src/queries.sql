@@ -37,6 +37,7 @@ DROP TABLE Raum;
     INSERT INTO Teilnahmer(ID,Vorname,Nachname,Straße,Hausnr,PLZ,Ort)VALUES('2','Borislav','Mase','Achter Straße','145','1020','Wien');
     INSERT INTO Teilnahmer(ID,Vorname,Nachname,Straße,Hausnr,PLZ,Ort)VALUES('3','Lav','Milner','List Straße','5','1030','Wien');
     INSERT INTO Teilnahmer(ID,Vorname,Nachname,Straße,Hausnr,PLZ,Ort)VALUES('4','Last','Milsna','Lig Straße','7','1060','Wien');
+    INSERT INTO Teilnahmer(ID,Vorname,Nachname,Straße,Hausnr,PLZ,Ort)VALUES('5','Lasti','Milsnar','Lige Straße','71','1060','Wien');
     
     CREATE TABLE Kurs(
     VANR VARCHAR(10) NOT NULL PRIMARY KEY,
